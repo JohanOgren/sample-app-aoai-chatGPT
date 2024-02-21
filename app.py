@@ -26,7 +26,7 @@ bp = Blueprint("routes", __name__, static_folder="static", template_folder="stat
 
 # UI configuration (optional)
 UI_TITLE = os.environ.get("UI_TITLE") or "Contoso"
-UI_LOGO = os.environ.get("UI_LOGO")
+UI_LOGO = os.environ.get("UI_LOGO") or "/Contoso.svg"
 UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Start chatting"
 UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "Hello CoreIT!"
