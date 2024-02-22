@@ -48,7 +48,7 @@ const Layout = () => {
                 <Stack horizontal verticalAlign="center" horizontalAlign="space-between">
                     <Stack horizontal verticalAlign="center">
                         <img
-                            src={ui?.logo ? Contoso}
+                            src="static\assets\Contoso-ff70ad88.svg"
                             className={styles.headerIcon}
                             aria-hidden="true"
                             />
