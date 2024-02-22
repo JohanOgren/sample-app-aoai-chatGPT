@@ -53,8 +53,13 @@ const Layout = () => {
                             aria-hidden="true"
                             />
                         <Link to="/" className={styles.headerTitleContainer}>
-                            <h1 className={styles.headerTitle}>{ui?.title}</h1>
+                            <h1 className={styles.headerTitle}>CoreIT</h1>
                         </Link>
+                        <img
+                            src="static\assets\Contoso-ff70ad88.svg"
+                            className={styles.headerIcon}
+                            aria-hidden="true"
+                            />
                     </Stack>
                     {ui?.show_share_button &&
                         <Stack horizontal tokens={{ childrenGap: 4 }}>
