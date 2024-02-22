@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import styles from "./Layout.module.css";
-import Contoso from "../../assets/Contoso.svg";
+import hemab from "../../assets/hemab.svg";
 import { CopyRegular, ShareRegular } from "@fluentui/react-icons";
 import { Dialog, Stack, TextField, ICommandBarStyles, IButtonStyles } from "@fluentui/react";
 import { useContext, useEffect, useState } from "react";
@@ -56,10 +56,10 @@ const Layout = () => {
                             <h1 className={styles.headerTitle}>CoreIT</h1>
                         </Link>
                         <img
-                            src="static\assets\Contoso-ff70ad88.svg"
-                            className={styles.headerIcon}
-                            aria-hidden="true"
-                            />
+                                    src={hemab}
+                                    className={styles.chatIcon}
+                                    aria-hidden="true"
+                                />
                     </Stack>
                     {ui?.show_share_button &&
                         <Stack horizontal tokens={{ childrenGap: 4 }}>
