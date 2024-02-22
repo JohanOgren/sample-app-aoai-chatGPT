@@ -643,7 +643,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={ui?.logo ? Contoso}
+                                    src="static\assets\Contoso-ff70ad88.svg"
                                     className={styles.headerIcon}
                                     aria-hidden="true"
                                     />
