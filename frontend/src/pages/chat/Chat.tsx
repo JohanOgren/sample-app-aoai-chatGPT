@@ -643,10 +643,10 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src="static\assets\Contoso-ff70ad88.svg"
-                                    className={styles.headerIcon}
+                                    src={ui?.chat_logo ? ui.chat_logo : Contoso}
+                                    className={styles.chatIcon}
                                     aria-hidden="true"
-                                    />
+                                />
                                 <h1 className={styles.chatEmptyStateTitle}>{ui?.chat_title}</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>{ui?.chat_description}</h2>
                             </Stack>
