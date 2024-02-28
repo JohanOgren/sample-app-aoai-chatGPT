@@ -10,7 +10,7 @@ import { isEmpty } from "lodash-es";
 import DOMPurify from 'dompurify';
 
 import styles from "./Chat.module.css";
-import hemab1 from "../../assets/hemab1.svg";
+import logoCoreIT from "../../assets/logoCoreIT.svg";
 import { XSSAllowTags } from "../../constants/xssAllowTags";
 
 import {
@@ -643,7 +643,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                  <img
-                                    src={hemab1}
+                                    src={logoCoreIT}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
