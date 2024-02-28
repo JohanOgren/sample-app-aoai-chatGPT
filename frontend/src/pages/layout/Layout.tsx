@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import styles from "./Layout.module.css";
-import hemab1 from "../../assets/hemab1.svg";
+import logoCoreIT from "../../assets/logoCoreIT.svg";
 import { CopyRegular, ShareRegular } from "@fluentui/react-icons";
 import { Dialog, Stack, TextField, ICommandBarStyles, IButtonStyles } from "@fluentui/react";
 import { useContext, useEffect, useState } from "react";
@@ -56,7 +56,7 @@ const Layout = () => {
                             <h1 className={styles.headerTitle}>CoreIT</h1>
                         </Link>
                         <img
-                                    src={hemab1}
+                                    src={logoCoreIT}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
